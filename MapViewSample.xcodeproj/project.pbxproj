@@ -7,21 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3436681FBC8D0F006DB529 /* NewAppleStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3436661FBC8D0F006DB529 /* NewAppleStoreViewController.swift */; };
+		BF3436691FBC8D0F006DB529 /* NewAppleStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3436671FBC8D0F006DB529 /* NewAppleStoreViewController.xib */; };
+		BF34366C1FBC9190006DB529 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF34366E1FBC9190006DB529 /* Localizable.strings */; };
+		BF3436711FBC9E95006DB529 /* PortraitNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3436701FBC9E95006DB529 /* PortraitNavigationController.swift */; };
 		BF9BC9561FBC77A7006A2623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9BC9551FBC77A7006A2623 /* AppDelegate.swift */; };
-		BF9BC9581FBC77A7006A2623 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9BC9571FBC77A7006A2623 /* ViewController.swift */; };
-		BF9BC95B1FBC77A7006A2623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9BC9591FBC77A7006A2623 /* Main.storyboard */; };
 		BF9BC95D1FBC77A7006A2623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9BC95C1FBC77A7006A2623 /* Assets.xcassets */; };
-		BF9BC9601FBC77A7006A2623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9BC95E1FBC77A7006A2623 /* LaunchScreen.storyboard */; };
+		BF9BC96D1FBC798D006A2623 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9BC96C1FBC798D006A2623 /* MapKit.framework */; };
+		BF9BC9701FBC7E2C006A2623 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9BC96E1FBC7E2C006A2623 /* MapViewController.swift */; };
+		BF9BC9711FBC7E2C006A2623 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9BC96F1FBC7E2C006A2623 /* MapViewController.xib */; };
+		BFBACFD21FBD8C8F00BEE1D6 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBACFD11FBD8C8F00BEE1D6 /* Store.swift */; };
+		BFBACFD51FBDA2D600BEE1D6 /* StoreMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBACFD31FBDA2D600BEE1D6 /* StoreMainViewController.swift */; };
+		BFBACFD61FBDA2D600BEE1D6 /* StoreMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFBACFD41FBDA2D600BEE1D6 /* StoreMainViewController.xib */; };
+		BFBACFD91FBDA85400BEE1D6 /* StoreListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBACFD71FBDA85400BEE1D6 /* StoreListViewController.swift */; };
+		BFBACFDA1FBDA85400BEE1D6 /* StoreListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFBACFD81FBDA85400BEE1D6 /* StoreListViewController.xib */; };
+		BFBACFDC1FBDAA2400BEE1D6 /* UIViewController+ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBACFDB1FBDAA2400BEE1D6 /* UIViewController+ChildViewController.swift */; };
+		BFBACFDE1FBDB01E00BEE1D6 /* StoreProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBACFDD1FBDB01E00BEE1D6 /* StoreProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF3436661FBC8D0F006DB529 /* NewAppleStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAppleStoreViewController.swift; sourceTree = "<group>"; };
+		BF3436671FBC8D0F006DB529 /* NewAppleStoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewAppleStoreViewController.xib; sourceTree = "<group>"; };
+		BF34366D1FBC9190006DB529 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BF34366F1FBC91EF006DB529 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BF3436701FBC9E95006DB529 /* PortraitNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitNavigationController.swift; sourceTree = "<group>"; };
 		BF9BC9521FBC77A7006A2623 /* MapViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9BC9551FBC77A7006A2623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF9BC9571FBC77A7006A2623 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF9BC95A1FBC77A7006A2623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF9BC95C1FBC77A7006A2623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BF9BC95F1FBC77A7006A2623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF9BC9611FBC77A7006A2623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9BC96C1FBC798D006A2623 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BF9BC96E1FBC7E2C006A2623 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BF9BC96F1FBC7E2C006A2623 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		BFBACFD11FBD8C8F00BEE1D6 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		BFBACFD31FBDA2D600BEE1D6 /* StoreMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreMainViewController.swift; sourceTree = "<group>"; };
+		BFBACFD41FBDA2D600BEE1D6 /* StoreMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreMainViewController.xib; sourceTree = "<group>"; };
+		BFBACFD71FBDA85400BEE1D6 /* StoreListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListViewController.swift; sourceTree = "<group>"; };
+		BFBACFD81FBDA85400BEE1D6 /* StoreListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreListViewController.xib; sourceTree = "<group>"; };
+		BFBACFDB1FBDAA2400BEE1D6 /* UIViewController+ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ChildViewController.swift"; sourceTree = "<group>"; };
+		BFBACFDD1FBDB01E00BEE1D6 /* StoreProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9BC96D1FBC798D006A2623 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +64,7 @@
 			children = (
 				BF9BC9541FBC77A7006A2623 /* MapViewSample */,
 				BF9BC9531FBC77A7006A2623 /* Products */,
+				BF9BC96B1FBC798D006A2623 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,32 @@
 		BF9BC9541FBC77A7006A2623 /* MapViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				BF9BC96F1FBC7E2C006A2623 /* MapViewController.xib */,
+				BF9BC96E1FBC7E2C006A2623 /* MapViewController.swift */,
 				BF9BC9551FBC77A7006A2623 /* AppDelegate.swift */,
-				BF9BC9571FBC77A7006A2623 /* ViewController.swift */,
-				BF9BC9591FBC77A7006A2623 /* Main.storyboard */,
 				BF9BC95C1FBC77A7006A2623 /* Assets.xcassets */,
-				BF9BC95E1FBC77A7006A2623 /* LaunchScreen.storyboard */,
 				BF9BC9611FBC77A7006A2623 /* Info.plist */,
+				BF3436661FBC8D0F006DB529 /* NewAppleStoreViewController.swift */,
+				BF3436671FBC8D0F006DB529 /* NewAppleStoreViewController.xib */,
+				BF34366E1FBC9190006DB529 /* Localizable.strings */,
+				BF3436701FBC9E95006DB529 /* PortraitNavigationController.swift */,
+				BFBACFD11FBD8C8F00BEE1D6 /* Store.swift */,
+				BFBACFD31FBDA2D600BEE1D6 /* StoreMainViewController.swift */,
+				BFBACFD41FBDA2D600BEE1D6 /* StoreMainViewController.xib */,
+				BFBACFD71FBDA85400BEE1D6 /* StoreListViewController.swift */,
+				BFBACFD81FBDA85400BEE1D6 /* StoreListViewController.xib */,
+				BFBACFDB1FBDAA2400BEE1D6 /* UIViewController+ChildViewController.swift */,
+				BFBACFDD1FBDB01E00BEE1D6 /* StoreProvider.swift */,
 			);
 			path = MapViewSample;
+			sourceTree = "<group>";
+		};
+		BF9BC96B1FBC798D006A2623 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF9BC96C1FBC798D006A2623 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +140,11 @@
 					BF9BC9511FBC77A7006A2623 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -107,6 +155,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = BF9BC9491FBC77A7006A2623;
 			productRefGroup = BF9BC9531FBC77A7006A2623 /* Products */;
@@ -123,9 +172,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF9BC9601FBC77A7006A2623 /* LaunchScreen.storyboard in Resources */,
 				BF9BC95D1FBC77A7006A2623 /* Assets.xcassets in Resources */,
-				BF9BC95B1FBC77A7006A2623 /* Main.storyboard in Resources */,
+				BF34366C1FBC9190006DB529 /* Localizable.strings in Resources */,
+				BFBACFDA1FBDA85400BEE1D6 /* StoreListViewController.xib in Resources */,
+				BF3436691FBC8D0F006DB529 /* NewAppleStoreViewController.xib in Resources */,
+				BF9BC9711FBC7E2C006A2623 /* MapViewController.xib in Resources */,
+				BFBACFD61FBDA2D600BEE1D6 /* StoreMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,28 +188,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF9BC9581FBC77A7006A2623 /* ViewController.swift in Sources */,
+				BFBACFDE1FBDB01E00BEE1D6 /* StoreProvider.swift in Sources */,
+				BFBACFDC1FBDAA2400BEE1D6 /* UIViewController+ChildViewController.swift in Sources */,
+				BFBACFD91FBDA85400BEE1D6 /* StoreListViewController.swift in Sources */,
+				BFBACFD21FBD8C8F00BEE1D6 /* Store.swift in Sources */,
 				BF9BC9561FBC77A7006A2623 /* AppDelegate.swift in Sources */,
+				BF9BC9701FBC7E2C006A2623 /* MapViewController.swift in Sources */,
+				BF3436711FBC9E95006DB529 /* PortraitNavigationController.swift in Sources */,
+				BF3436681FBC8D0F006DB529 /* NewAppleStoreViewController.swift in Sources */,
+				BFBACFD51FBDA2D600BEE1D6 /* StoreMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BF9BC9591FBC77A7006A2623 /* Main.storyboard */ = {
+		BF34366E1FBC9190006DB529 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BF9BC95A1FBC77A7006A2623 /* Base */,
+				BF34366D1FBC9190006DB529 /* en */,
+				BF34366F1FBC91EF006DB529 /* fr */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BF9BC95E1FBC77A7006A2623 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF9BC95F1FBC77A7006A2623 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -167,6 +219,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -224,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

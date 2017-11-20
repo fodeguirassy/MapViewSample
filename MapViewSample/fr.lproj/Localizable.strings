@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  MapViewSample
+
+  Created by School on 15/11/2017.
+  Copyright © 2017 Fodé Guirassy. All rights reserved.
+*/
+"controllers.new_apple.title" = "Creer un Apple store";
+"controllers.new_apple.editText.title" = "nom";
+"controllers.new_apple.editText.longitude" = "longitude";
+"controllers.new_apple.editText.latitude" = "latitude";
+"app.vocabulary.error.title"="Erreur";
+"app.vocabulary.error.error_message"="Champs manquants";
+"app.vocabulary.error.close"="Fermer";
