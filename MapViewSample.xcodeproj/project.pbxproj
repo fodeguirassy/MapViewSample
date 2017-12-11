@@ -11,6 +11,8 @@
 		BF3436691FBC8D0F006DB529 /* NewAppleStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3436671FBC8D0F006DB529 /* NewAppleStoreViewController.xib */; };
 		BF34366C1FBC9190006DB529 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF34366E1FBC9190006DB529 /* Localizable.strings */; };
 		BF3436711FBC9E95006DB529 /* PortraitNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3436701FBC9E95006DB529 /* PortraitNavigationController.swift */; };
+		BF5273D21FD82F9D000891BA /* StoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5273D11FD82F9D000891BA /* StoreCollectionViewCell.xib */; };
+		BF5273D41FD83278000891BA /* StoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5273D31FD83278000891BA /* StoreCollectionViewCell.swift */; };
 		BF9BC9561FBC77A7006A2623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9BC9551FBC77A7006A2623 /* AppDelegate.swift */; };
 		BF9BC95D1FBC77A7006A2623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9BC95C1FBC77A7006A2623 /* Assets.xcassets */; };
 		BF9BC96D1FBC798D006A2623 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9BC96C1FBC798D006A2623 /* MapKit.framework */; };
@@ -31,6 +33,8 @@
 		BF34366D1FBC9190006DB529 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BF34366F1FBC91EF006DB529 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BF3436701FBC9E95006DB529 /* PortraitNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitNavigationController.swift; sourceTree = "<group>"; };
+		BF5273D11FD82F9D000891BA /* StoreCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreCollectionViewCell.xib; sourceTree = "<group>"; };
+		BF5273D31FD83278000891BA /* StoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF9BC9521FBC77A7006A2623 /* MapViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9BC9551FBC77A7006A2623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF9BC95C1FBC77A7006A2623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 				BFBACFD81FBDA85400BEE1D6 /* StoreListViewController.xib */,
 				BFBACFDB1FBDAA2400BEE1D6 /* UIViewController+ChildViewController.swift */,
 				BFBACFDD1FBDB01E00BEE1D6 /* StoreProvider.swift */,
+				BF5273D11FD82F9D000891BA /* StoreCollectionViewCell.xib */,
+				BF5273D31FD83278000891BA /* StoreCollectionViewCell.swift */,
 			);
 			path = MapViewSample;
 			sourceTree = "<group>";
@@ -178,6 +184,7 @@
 				BF3436691FBC8D0F006DB529 /* NewAppleStoreViewController.xib in Resources */,
 				BF9BC9711FBC7E2C006A2623 /* MapViewController.xib in Resources */,
 				BFBACFD61FBDA2D600BEE1D6 /* StoreMainViewController.xib in Resources */,
+				BF5273D21FD82F9D000891BA /* StoreCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +197,7 @@
 			files = (
 				BFBACFDE1FBDB01E00BEE1D6 /* StoreProvider.swift in Sources */,
 				BFBACFDC1FBDAA2400BEE1D6 /* UIViewController+ChildViewController.swift in Sources */,
+				BF5273D41FD83278000891BA /* StoreCollectionViewCell.swift in Sources */,
 				BFBACFD91FBDA85400BEE1D6 /* StoreListViewController.swift in Sources */,
 				BFBACFD21FBD8C8F00BEE1D6 /* Store.swift in Sources */,
 				BF9BC9561FBC77A7006A2623 /* AppDelegate.swift in Sources */,

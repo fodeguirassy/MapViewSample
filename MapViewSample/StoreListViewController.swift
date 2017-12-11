@@ -10,26 +10,91 @@ import UIKit
 
 public class StoreListViewController: UIViewController {
 
+    @IBOutlet weak var storeCollectionView: UICollectionView!
+    
+    weak var storeProvider: StoreProvider?
+    
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    
+        self.storeCollectionView.register(UINib(nibName:"StoreCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "Store")
+        
     }
 
     public override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    public override func viewWillAppear(_ animated: Bool) {
+        self.storeCollectionView.reloadData()
     }
-    */
 
 }
+
+
+//CONTROl DRAG & DROP COLLECTION FROM XIB TO FILE AND SELECT DELEGATE & DATASOURCE
+extension StoreListViewController : UICollectionViewDataSource {
+    
+    
+    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+        return self.storeProvider?.stores.count ?? 0
+    
+    }
+    
+    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    
+        guard let store = self.storeProvider?.stores[indexPath.item] else {
+            fatalError("Not possible")
+        }
+    
+        
+        let cell  = collectionView.dequeueReusableCell(withReuseIdentifier: "Store", for: indexPath)
+        
+        if let storeCell = cell as? StoreCollectionViewCell {
+            
+            storeCell.latLabel.text = String(store.coordinate.latitude)
+            storeCell.longLabel.text = String(store.coordinate.longitude)
+            storeCell.titleLabel.text = store.name
+        }
+                
+        return cell
+    }
+    
+}
+
+
+extension StoreListViewController : UICollectionViewDelegateFlowLayout {
+    
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        var screenWidth = collectionView.bounds.width
+        
+        if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+            screenWidth -= layout.minimumInteritemSpacing
+        }
+                return CGSize(width: screenWidth/2, height: screenWidth/2)
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

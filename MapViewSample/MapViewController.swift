@@ -59,6 +59,7 @@ class MapViewController: UIViewController {
 }
 
 extension MapViewController : MKMapViewDelegate {
+    
     public static let appleStoreIdentifier = "ASI"
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         if(annotation is MKUserLocation){

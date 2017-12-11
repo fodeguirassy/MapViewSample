@@ -13,6 +13,12 @@ class StoreMainViewController: UIViewController, StoreProvider {
     @IBOutlet weak var childContentView: UIView!
     
     var stores: [Store] = []
+
+    lazy var listViewController: StoreListViewController = {
+        let listViewController = StoreListViewController()
+        listViewController.storeProvider = self
+        return listViewController
+    }()
     
     lazy var mapViewController : MapViewController = {
         let mapViewController = MapViewController()
@@ -20,16 +26,13 @@ class StoreMainViewController: UIViewController, StoreProvider {
         return mapViewController
     }()
     
-    lazy var list :StoreListViewController = {
-        return StoreListViewController()
-    }()
     
     public var visibleViewController : UIViewController {
         if self.mapViewController.view.window != nil
         {
             return self.mapViewController
         }
-        return self.list
+        return self.listViewController
     }
     
     override func viewDidLoad() {
@@ -46,7 +49,7 @@ class StoreMainViewController: UIViewController, StoreProvider {
         
         self.removeChildViewController(visibleViewController)
         if(visibleViewController == self.mapViewController){
-            self.addChildViewController(self.list, in: self.childContentView)
+            self.addChildViewController(self.listViewController, in: self.childContentView)
         }else{
             self.addChildViewController(self.mapViewController, in: self.childContentView)
         }
